@@ -1,0 +1,38 @@
+
+// FOR EDUCATIONAL PURPOSES ONLY
+// Source code is provided as-is without warranty, and disclaiming liability for damages resulting from using the source code.
+
+<html>
+<head>
+<script>
+init(){
+  var el = document.getElementById("menu1");
+  el.addEventListener("click", displayMenu);
+  el.addEventListener("focusout", hideMenu);
+}
+</script>
+<style>
+nav{
+	font-family: Segoe UI; 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+}
+
+</style>
+</head>
+<body>
+</body onload="init()">
+<div class="nav" id="menu1">
+<ul>
+  <li>File
+    <ul><li>Open</li>
+        <li>Save</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+<li>Edit</li>
+</ul>
+</div>
+</html>
