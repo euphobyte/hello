@@ -1,0 +1,5 @@
+Form1.cs  - Minimal cs Form. Used as a template for all commandline cs programs.
+Form2.cs  - Form containing basic dialog controls. Grouped in a TablePanelLayout inside a GroupBox.
+
+Both examples are using the old windos GUI style in order to use enablevisualstyles had to be activated.  An example of Form2 with the 
+visuals styles enabled take a look at the enablevisualstyles subdirectory. 

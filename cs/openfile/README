@@ -1,0 +1,1 @@
+Form1.cs  - Form with open file dialog.  Text file is written to multiline textbox.  [STAThread] had to be added for dialog to show.
