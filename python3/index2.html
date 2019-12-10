@@ -1,0 +1,27 @@
+Thumbnail:
+https://img.youtube.com/vi/5_pmKPWLBrE/2.jpg
+
+Get JSON info:
+https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Cce72tWrn0E&format=json
+
+Simple HTML
+
+<html>
+<script>
+function test(){
+	document.getElementById("tst1").value="Simon";
+}
+</script>
+<input id="tst1"></input>
+<button onclick="test()">Test</button>
+</html>
+
+JSON:
+
+var text = '{ "people" : [{ "name":"John"}]}';
+var ex1 = JSON.parse(text);
+
+<div id="tst1"></div>
+<script>
+document.getElementById("tst1").innerHTML = ex1.people[0].name;
+</script>
