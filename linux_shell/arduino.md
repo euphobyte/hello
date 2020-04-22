@@ -1,13 +1,18 @@
 ### Command Line Arduino
-Install arduino-cli:```Shell
+Install arduino-cli:
+```Shell
 $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 ``` 
 
 Set-up indexes:
-' $ arduino-cli core update-index
+```shell
+$ arduino-cli core update-index
+``` 
 
 Create config file:
+```Shell
 $ arduino-cli config init
+```
 
 Edit config file:
 $ cd .arduino
