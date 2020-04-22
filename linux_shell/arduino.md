@@ -1,7 +1,7 @@
 ### Command Line Arduino
 Install arduino-cli:
 ```Shell
-curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+$ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 ``` 
 
 Set-up indexes:
@@ -13,13 +13,15 @@ Create config file:
 ```Shell
 $ arduino-cli config init
 ```
-
 Edit config file:
+```Shell
 $ cd .arduino
 $ nano arduino-cli.yaml
-
+```
 Search definition file:
+```Shell
 $ arduino-cli core search uno
+```
 
 Install definition file:
 $ arduino-cli install arduino:avr
