@@ -2,7 +2,7 @@
 Install arduino-cli:
 ```Shell
 $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
-` ` ` 
+``` 
 
 Set-up indexes:
 ' $ arduino-cli core update-index
