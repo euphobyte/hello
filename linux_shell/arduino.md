@@ -1,8 +1,8 @@
 Install arduino-cli:
-$ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+' $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 
 Set-up indexes:
-$ arduino-cli core update-index
+' $ arduino-cli core update-index
 
 Create config file:
 $ arduino-cli config init
