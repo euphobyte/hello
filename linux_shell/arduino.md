@@ -1,5 +1,6 @@
+### Command Line Arduino
 Install arduino-cli:
-' $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+''' $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 
 Set-up indexes:
 ' $ arduino-cli core update-index
