@@ -1,6 +1,5 @@
 ### Command Line Arduino
-Install arduino-cli:
-```Shell
+Install arduino-cli:```Shell
 $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 ``` 
 
